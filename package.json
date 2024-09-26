@@ -1,0 +1,30 @@
+{
+  "name": "pigment-css-repro-next-js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mui/material": "^6.1.1",
+    "@mui/material-pigment-css": "^6.1.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.13"
+  },
+  "devDependencies": {
+    "@pigment-css/nextjs-plugin": "https://pkg.csb.dev/mui/pigment-css/commit/76e39c75/@pigment-css/nextjs-plugin",
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13"
+  },
+  "resolutions": {
+    "@pigment-css/react": "https://pkg.csb.dev/mui/pigment-css/commit/76e39c75/@pigment-css/react"
+  }
+}
