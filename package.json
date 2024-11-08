@@ -9,14 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mui/material": "^6.1.1",
-    "@mui/material-pigment-css": "^6.1.1",
+    "@mui/material": "6.1.6",
+    "@mui/material-pigment-css": "6.1.6",
     "react": "^18",
     "react-dom": "^18",
     "next": "14.2.13"
   },
   "devDependencies": {
-    "@pigment-css/nextjs-plugin": "https://pkg.csb.dev/mui/pigment-css/commit/76e39c75/@pigment-css/nextjs-plugin",
+    "@pigment-css/nextjs-plugin": "0.0.26",
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -25,6 +25,6 @@
     "eslint-config-next": "14.2.13"
   },
   "resolutions": {
-    "@pigment-css/react": "https://pkg.csb.dev/mui/pigment-css/commit/76e39c75/@pigment-css/react"
+    "@pigment-css/react": "0.0.26"
   }
 }
